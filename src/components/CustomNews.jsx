@@ -3,8 +3,10 @@ import { useSelector } from "react-redux";
 import Accordion from "react-bootstrap/Accordion";
 
 function CustomNews() {
+  //getting custom news data from redux store
   const { customNewsData } = useSelector((state) => state.news);
   return (
+    // mapping through the custom searched news data
     <Accordion defaultActiveKey="0">
       {customNewsData.map((news, i) => {
         return (

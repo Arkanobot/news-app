@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import { api } from "./api";
+import { api } from "./api"; // getting the api key from api.js file
 import { useDispatch, useSelector } from "react-redux";
 import { getTopNews } from "../redux/newsData";
 import TopNews from "./TopNews";

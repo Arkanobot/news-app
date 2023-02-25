@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import search from "../assets/loupe.png";
 import { useDispatch } from "react-redux";
 import { getCustomNewsData, getCustomNewsQuery } from "../redux/newsData";
-import { api } from "./api";
+import { api } from "./api"; // getting the api key from api.js file
 import axios from "axios";
 
 function Searchbar() {
